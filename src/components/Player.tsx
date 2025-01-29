@@ -1,7 +1,9 @@
+import CursoContext from "@/context/CursoContext"
 import capitulos from "@/data/constants/capitulos"
+import { useContext } from "react"
 
 export default function Player() {
-  const aulaAtual = capitulos[0].aulas[0]
+  const { aulaAtual } = useContext(CursoContext)
 
   return (
     <div className="
