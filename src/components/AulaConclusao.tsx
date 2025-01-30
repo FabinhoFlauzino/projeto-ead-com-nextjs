@@ -6,6 +6,7 @@ interface AulaConclusaoProps {
 }
 
 export default function AulaConclusao({ concluida, onClick }: AulaConclusaoProps) {
+  console.log(concluida)
   return (
     <button className={`
       flex justify-center items-center
